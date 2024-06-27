@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "piratenation-tool"
+version = "0.1.0"
+description = ""
+authors = ["toandev020101 <toandev020101@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.22.0"
+webdriver-manager = "^4.0.1"
+opencv-python = "^4.10.0.84"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
